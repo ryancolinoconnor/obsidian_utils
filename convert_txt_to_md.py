@@ -1,7 +1,7 @@
 import shutil
 import glob
 import os
-source = "/mnt/c/Users/ryano/Google Drive/Obsidian/Ryan's Brain/jot notes"
+source = "/mnt/c/Users/ryano/Google Drive/Obsidian/Big_vault/Ryan's Brain/jot notes"
 files = glob.glob(os.path.sep.join([source,'*.txt']))
 for f in files:
     
